@@ -19,7 +19,7 @@ def get_weather(city: str) -> dict:
 
 def get_current_time(city: str) -> dict:
     if city.lower() == "new york":
-        tz_identifier = "America/New_York"  # ✅ Timezone name corrected (case matters)
+        tz_identifier = "America/New_York" 
     else:
         return {
             "status": "error",
